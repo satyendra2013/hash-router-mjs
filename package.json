@@ -1,6 +1,6 @@
 {
   "name": "hash-router-mjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight javascript utility for building hash routing in your front-end application.",
   "main": "index.mjs",
   "scripts": {
