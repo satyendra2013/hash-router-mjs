@@ -1,0 +1,42 @@
+{
+  "name": "hash-router-mjs",
+  "version": "0.0.1",
+  "description": "A lightweight javascript utility for building hash routing in your front-end application.",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "node --experimental-modules --es-module-specifier-resolution=node ./tests/index.mjs",
+    "start": "node --experimental-modules --es-module-specifier-resolution=node ./index.mjs",
+    "watch": "nodemon --experimental-modules --es-module-specifier-resolution=node -w ./index.mjs index.mjs"
+  },
+  "keywords": [
+    "hash-router-js",
+    "react-hash-routing",
+    "experimental-mjs-routing-library"
+  ],
+  "repository": "https://github.com/satyendra2013/hash-router-mjs.git",
+  "author": {
+    "name": "Satyendra Pandit",
+    "email": "satyendrapandit2018@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Satyendra Pandit"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "global": "^4.4.0",
+    "nodemon": "^2.0.4",
+    "routes": "^2.1.0",
+    "xtend": "^4.0.2"
+  },
+  "devDependencies": {
+    "function-bind": "^1.1.1",
+    "run-browser": "^2.0.2",
+    "tape": "^5.0.1"
+  },
+  "engines": {
+    "node": ">=10.13.0",
+    "npm": ">=6.4.1"
+  }
+}
