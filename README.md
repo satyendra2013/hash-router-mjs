@@ -33,7 +33,7 @@ type RouteHandler := (hash: String, val: {
     oldUrl: String
 }) => void
 
-hash-router := (val?: {
+hash-router-mjs := (val?: {
     setRoute?: (String) => void,
     getRoute?: () => String
 }) => EventEmitter & {
