@@ -12,14 +12,14 @@ A lightweight javascript utility for building hash routing in your front-end app
 import hashRouterJs from 'hash-router-mjs';
 
 const router = hashRouterJs();
-router.addRoute("#/", renderHomePage);
-router.addRoute("#/signup", openSignupDialog);
+router.addRoute('#/', renderHomePage);
+router.addRoute('#/signup', openSignupDialog);
 
 router.on('hash', function (hash, e) {
   console.log('hash changed!', hash);
 });
 
-window.addEventListener("hashchange", router);
+window.addEventListener('hashchange', router);
 router(); // call to start the router
 ```
 
@@ -63,6 +63,8 @@ and watch the test be re-run at every save.
 
 ## Contributors
 
- - Satyendra Pandit
+- Satyendra Pandit
 
 ## MIT Licenced
+
+This project is licensed under the terms of the MIT license.
