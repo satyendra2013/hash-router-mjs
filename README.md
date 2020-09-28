@@ -61,6 +61,10 @@ npm run watch
 
 and watch the test be re-run at every save.
 
+## Author
+
+- Satyendra Pandit
+
 ## Contributors
 
 - Satyendra Pandit
