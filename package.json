@@ -14,6 +14,7 @@
     "experimental-mjs-routing-library"
   ],
   "repository": "https://github.com/satyendra2013/hash-router-mjs.git",
+  "bugs": "https://github.com/satyendra2013/hash-router-mjs/issues",
   "author": {
     "name": "Satyendra Pandit",
     "email": "satyendrapandit2018@gmail.com"

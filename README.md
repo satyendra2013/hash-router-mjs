@@ -1,6 +1,6 @@
 # hash-router-mjs
 
-A lightweight javascript utility for building hash routing in your front-end application.The first hash routing library written by following .mjs extention. Looking forward for more contributions in improving this library. For bugs, please report to satyendrapandit2018@gmail.com until issue tracker page be ready.
+A lightweight javascript utility for building hash routing in your front-end application.The first hash routing library written by following .mjs extention. Looking forward for more contributions in improving this library.
 
 ## Installation
 
